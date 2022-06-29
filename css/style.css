@@ -282,7 +282,7 @@ section.discover div div div a.button1:hover{
     background-clip: text;
 }
 section.discover div div div a.button2{
-    width: 145px;
+    width: 200px;
     height: 58px;
     font-family: 'Orbitron', sans-serif;
     font-size: 20px;
@@ -503,6 +503,9 @@ div.logo {
         margin: -135px 0px 0px 85px;
         width: 270px;
         height: 25px;
+    }
+    section.discover div div div a.button2{
+        width: 145px;
     }
 }
 /*-----------------767px--------------------------*/
