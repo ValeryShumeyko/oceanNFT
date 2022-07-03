@@ -218,6 +218,7 @@ header nav ul li:hover {
     }
     body._lock {
         overflow: hidden;
+        background-color:rgba(53, 10, 61, 1.0);
     }
 }
 
@@ -601,6 +602,24 @@ div.logo {
     }
     section.discover div div div.numbers div.numbers__col {
         width: 100px;
+    }
+}
+@media (max-width: 386px) {
+    .logo__item {
+        width: 100px;
+    }
+    section.discover div div div a.button1{
+        width: 103px;
+        margin-right: 0px;
+        height: 40px;
+        padding: 10px 0px 0px 0px;
+    }
+    section.discover div div div a.button2{
+        padding-top: 10px;
+        width: 115px;
+    }
+    section.discover div div div.numbers div.numbers__col {
+        width: 80px;
     }
 }
 
